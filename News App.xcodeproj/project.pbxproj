@@ -13,6 +13,7 @@
 		FA4E48EE28D45FE1007EEC24 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E48ED28D45FE1007EEC24 /* HomeView.swift */; };
 		FA4E48F128D462F6007EEC24 /* NewsResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E48F028D462F6007EEC24 /* NewsResponce.swift */; };
 		FA4E48F428D46464007EEC24 /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E48F328D46464007EEC24 /* NewsEndpoint.swift */; };
+		FA4E48F728D469E0007EEC24 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E48F628D469E0007EEC24 /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FA4E48ED28D45FE1007EEC24 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FA4E48F028D462F6007EEC24 /* NewsResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponce.swift; sourceTree = "<group>"; };
 		FA4E48F328D46464007EEC24 /* NewsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
+		FA4E48F628D469E0007EEC24 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		FA4E48DD28D45EBF007EEC24 /* News App */ = {
 			isa = PBXGroup;
 			children = (
+				FA4E48F528D469B7007EEC24 /* Error */,
 				FA4E48F228D46437007EEC24 /* Endpoint */,
 				FA4E48EF28D462C2007EEC24 /* Model */,
 				FA4E48EC28D45FA7007EEC24 /* Views */,
@@ -95,6 +98,14 @@
 				FA4E48F328D46464007EEC24 /* NewsEndpoint.swift */,
 			);
 			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		FA4E48F528D469B7007EEC24 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E48F628D469E0007EEC24 /* APIError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				FA4E48EE28D45FE1007EEC24 /* HomeView.swift in Sources */,
 				FA4E48F128D462F6007EEC24 /* NewsResponce.swift in Sources */,
 				FA4E48DF28D45EBF007EEC24 /* News_AppApp.swift in Sources */,
+				FA4E48F728D469E0007EEC24 /* APIError.swift in Sources */,
 				FA4E48F428D46464007EEC24 /* NewsEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
