@@ -1,5 +1,5 @@
 //
-//  NewsResponce.swift
+//  NewsResponse.swift
 //  News App
 //
 //  Created by Alexander Shabalin on 16/9/22.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-// MARK: - NewsResponce
-struct NewsResponce: Codable {
+// MARK: - NewsResponse
+struct NewsResponse: Codable {
     let articles: [Article]
 }
 
