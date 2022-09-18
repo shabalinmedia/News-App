@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA4370B228D78240000F895D /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = FA4370B128D78240000F895D /* URLImage */; };
 		FA4370B428D78273000F895D /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4370B328D78273000F895D /* ArticleView.swift */; };
+		FA4370B628D78A5D000F895D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4370B528D78A5D000F895D /* ErrorView.swift */; };
 		FA4E48DF28D45EBF007EEC24 /* News_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E48DE28D45EBF007EEC24 /* News_AppApp.swift */; };
 		FA4E48E328D45EBF007EEC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4E48E228D45EBF007EEC24 /* Assets.xcassets */; };
 		FA4E48E628D45EBF007EEC24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4E48E528D45EBF007EEC24 /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		FA4370B328D78273000F895D /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		FA4370B528D78A5D000F895D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		FA4E48DB28D45EBF007EEC24 /* News App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4E48DE28D45EBF007EEC24 /* News_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_AppApp.swift; sourceTree = "<group>"; };
 		FA4E48E228D45EBF007EEC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				FA4E48ED28D45FE1007EEC24 /* HomeView.swift */,
 				FA4370B328D78273000F895D /* ArticleView.swift */,
+				FA4370B528D78A5D000F895D /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				FA4E48EE28D45FE1007EEC24 /* HomeView.swift in Sources */,
 				FA4E48F128D462F6007EEC24 /* NewsResponse.swift in Sources */,
 				FA4E48DF28D45EBF007EEC24 /* News_AppApp.swift in Sources */,
+				FA4370B628D78A5D000F895D /* ErrorView.swift in Sources */,
 				FA4E48F728D469E0007EEC24 /* APIError.swift in Sources */,
 				FA4E48F428D46464007EEC24 /* NewsEndpoint.swift in Sources */,
 				FA4370B428D78273000F895D /* ArticleView.swift in Sources */,
